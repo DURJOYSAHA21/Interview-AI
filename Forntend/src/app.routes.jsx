@@ -12,6 +12,11 @@ const router = createBrowserRouter([ // const router = createBrowserRouter([ // 
         path: "/register",
         element: <Register />,
     },
+    {
+        path: "/",
+        element: <h1>Home Page</h1>, // element means the React component that will be rendered when the user navigates to the specified path, in this case, it is a simple <h1>Home Page</h1> component which will be rendered when the user navigates to "/".
+    },
+    
 ]);
 
 export {router}; // export {router}; for react-router-dom v6.4 and above

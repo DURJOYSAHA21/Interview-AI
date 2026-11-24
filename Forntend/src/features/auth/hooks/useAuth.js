@@ -39,6 +39,6 @@ export const useAuth = () => { // export const useAuth = () => { to create a cus
         setLoading(false);
     }
 
-    return {user, loading, handlelogin, handleRegister, handleLogout}; // return {user, loading, handlelogin, handleRegister, handleLogout}; to return the user state, loading state, and authentication functions to the components that use this custom hook. It allows us to access the authentication state and functions from any component within the application.
+    return {user, loading, handleLogin, handleRegister, handleLogout}; // return {user, loading, handlelogin, handleRegister, handleLogout}; to return the user state, loading state, and authentication functions to the components that use this custom hook. It allows us to access the authentication state and functions from any component within the application.
     
 }
